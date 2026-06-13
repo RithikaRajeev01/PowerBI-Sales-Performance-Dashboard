@@ -1,6 +1,6 @@
 # Executive Sales Performance Dashboard | Power BI
 
-![Dashboard Overview](Images/dashboard_overview.png)
+![Dashboard Overview](dashboard_overview.png)
 
 > Interactive executive dashboard built using Power BI and the AdventureWorks Sales Dataset to monitor revenue performance, customer growth, product performance, and regional sales trends.
 
@@ -34,6 +34,8 @@ The goal of this project was to create a single executive dashboard capable of a
 
 **Source:** Kaggle
 
+**Dataset Link:** https://www.kaggle.com/datasets/samolkin/adventure-works-sales
+
 Dataset includes:
 
 * Sales Transactions
@@ -42,6 +44,14 @@ Dataset includes:
 * Product Categories
 * Product Subcategories
 * Territory Information
+
+The following files were used in this project:
+
+* Sales.xlsx
+* AdventureWorks_Customer.csv
+* AdventureWorks_Product_Categories.csv
+* AdventureWorks_Product_Subcategories.csv
+* AdventureWorks_Territories.csv
 
 A custom Date Table was created to support time intelligence calculations and KPI growth analysis.
 
@@ -189,18 +199,11 @@ to ensure efficient filtering and reporting.
 ## Repository Contents
 
 ```text
-Reports/
- └── Sales_Performance_Dashboard.pbix
-
-Data/
- ├── Sales.xlsx
- ├── AdventureWorks_Product_Categories.csv
- ├── AdventureWorks_Product_Subcategories.csv
- ├── AdventureWorks_Territories.csv
- └── AdventureWorks_Customer.csv
-
-Images/
- └── dashboard_overview.png
+PowerBI-Sales-Performance-Dashboard/
+│
+├── README.md
+├── Sales_Performance_Dashboard.pbix
+└── dashboard_overview.png
 ```
 
 ---
